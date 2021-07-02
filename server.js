@@ -12,8 +12,8 @@ app.use(express.urlencoded({ extended: true })); // for parsing application/x-ww
 const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "AgnėOrlo2021",
-  database: "todolist",
+  password: "",
+  database: "",
 });
 
 connection.connect();
